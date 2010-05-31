@@ -25,6 +25,13 @@ leo vitae lorem facilisis dapibus et quis quam.
     ac, congue a dui.  Suspendisse aliquet nisi est. Proin neque neque,
     interdum sit amet adipiscing nec, ultricies quis.
 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet
+    lectus nisi, sit amet auctor mauris. Donec condimentum purus sagittis velit
+    semper volutpat. Nulla in felis nunc. Maecenas laoreet sagittis suscipit.
+    Pellentesque nec augue lectus. In magna sapien, pulvinar vel sollicitudin
+    ac, congue a dui.  Suspendisse aliquet nisi est. Proin neque neque,
+    interdum sit amet adipiscing nec, ultricies quis.
+
 Sed ac augue non felis tempus iaculis nec sed libero. Suspendisse lacus libero,
 varius eget cursus id, condimentum sit amet dui. Quisque justo odio, bibendum
 et commodo in, interdum sed erat. Duis imperdiet rhoncus risus sed vehicula.
@@ -163,9 +170,6 @@ consectetur mollis quis at ante.
 
 
 Showcase
-========
-
-Headings
 --------
 
 Heading 3
@@ -181,9 +185,12 @@ Heading 6
 `````````
 
 Admonitions
------------
+~~~~~~~~~~~
 
 .. attention::
+    Sed ac augue non felis tempus iaculis nec sed libero. Suspendisse lacus
+    libero, varius eget cursus id, condimentum sit amet dui.   
+
     Sed ac augue non felis tempus iaculis nec sed libero. Suspendisse lacus
     libero, varius eget cursus id, condimentum sit amet dui.   
 

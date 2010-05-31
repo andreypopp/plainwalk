@@ -4,4 +4,4 @@ HTML := $(SRC:%.rst=%.html)
 all: $(HTML)
 
 %.html: %.rst
-	rst2html.py --template=template.tpl $< > $@
+	rst2html.py --template=template.tpl --initial-header-level=2 $< > $@

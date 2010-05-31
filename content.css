@@ -52,6 +52,16 @@
 .content blockquote {
   padding: 10px 0;
 }
+
+.content h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content h5 a,
+.content h6 a {
+  text-decoration: none;
+}
+
 .content h1,
 .content h2,
 .content h3,
@@ -74,6 +84,9 @@
   line-height: 1.45em;
 }
 /* elements */
+.content table {
+  margin: 10px 0;
+}
 .content dt {
   font-style: italic;
   font-weight: bold;
@@ -94,12 +107,10 @@
   background: #F1F1F1;
 }
 .content pre {
-  margin: 10px;
   font-size: 85%;
   line-height: 120%;
   display: block;
-  margin: 0 -20px;
-  padding: 10px 20px;
+  padding: 10px;
 }
 .content img {
   display: block;
@@ -158,11 +169,40 @@
 .content a:visited {
   color:#1F1F1F;
 }
+.content h1 a {
+  color:#7D2823;
+}
+.content h2 a {
+  color:#7D2823;
+}
+.content h3 a {
+  color:#A2332C;
+}
+.content h4 a {
+  color: #A2332C;
+}
+.content h5 a {
+  color: #A2332C;
+}
+.content h6 a {
+  color: #000;
+}
 /* numbered list */
 .content ol li {
   list-style-type: decimal;
   margin-left: 40px;
-  margin-bottom: 3px;
+}
+.content ol.upperalpha li {
+  list-style-type: upper-latin;
+}
+.content ol.loweralpha li {
+  list-style-type: lower-latin;
+}
+.content ol.upperroman li {
+  list-style-type: upper-roman;
+}
+.content ol.lowerroman li {
+  list-style-type: lower-roman;
 }
 /* standard list */
 .content ul li {
@@ -232,7 +272,33 @@
 .content .important .last,
 .content .tip .last,
 .content .warning .last { display: inline; }
+/* footnote */
+.content a.fn-backref,
+.content a.footnote-reference {
+  text-decoration: none;
+}
+.content table.footnote td {
+  font-size: 95%;
+  padding: 5px;
+}
+/* contents */
+.content .contents .topic-title {
+  font-size:110%;
+  color:#A2332C;
+  margin:0;
+  padding-bottom:0;
+}
+/* docinfo */
+.content table.docinfo {
+  font-size: 90%;
+}
+.content table.docinfo td,
+.content table.docinfo th {
+  padding: 2px;
+}
+.content table.docinfo th {
+  text-align: right;
+}
 /* css3 fancies */
 .content.css3 { text-shadow: 1px 1px 0px #EEE; } .content.css3 pre,
 .content.css3 pre { text-shadow:none; }
-/* Color theme */

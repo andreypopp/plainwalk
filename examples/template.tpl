@@ -18,6 +18,8 @@
 <body>
   <div id="wrapper">
     <div class="document content css3">
+      %(body_pre_docinfo)s
+      %(docinfo)s
       %(body)s
     </div>
   </div>
