@@ -74,10 +74,19 @@
   line-height: 1.45em;
 }
 /* elements */
+.content dt {
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+.content dd {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 .content tt {
   font-size: 90%;
   white-space: nowrap;
-  padding: 0 5px;
+  padding: 0 3px;
 }
 .content tt,
 .content pre {
@@ -190,7 +199,18 @@
   padding: 0;
 }
 /* admonition */
-.content .admonition {
+.content .admonition,
+.content .note,
+.content .attention,
+.content .caution,
+.content .danger,
+.content .error,
+.content .hint,
+.content .important,
+.content .tip,
+.content .warning
+{
+  margin: 10px 0;
   padding: 10px;
   background: #F1F1F1;
   font-size: 90%;
@@ -202,14 +222,17 @@
   color:#A2332C;
   padding: 0;
 }
-.content .admonition .last {
-  display: inline;
-}
+.content .admonition .last,
+.content .note .last,
+.content .caution .last,
+.content .attention .last,
+.content .danger .last,
+.content .error .last,
+.content .hint .last,
+.content .important .last,
+.content .tip .last,
+.content .warning .last { display: inline; }
 /* css3 fancies */
-.content.css3 {
-  text-shadow: 1px 1px 0px #EEE;
-}
-.content.css3 pre,
-.content.css3 pre {
-  text-shadow:none;
-}
+.content.css3 { text-shadow: 1px 1px 0px #EEE; } .content.css3 pre,
+.content.css3 pre { text-shadow:none; }
+/* Color theme */
