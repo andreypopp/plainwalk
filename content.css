@@ -38,7 +38,6 @@
   font-family: 'Georgia', serif;
   font-size: 16px;
   color: #444;
-  text-shadow: 1px 1px 0px #EEE;
 }
 .content h1,
 .content h2,
@@ -74,6 +73,7 @@
 .content li {
   line-height: 1.45em;
 }
+/* elements */
 .content tt {
   font-size: 90%;
   white-space: nowrap;
@@ -92,7 +92,6 @@
   margin: 0 -20px;
   padding: 10px 20px;
 }
-/* elements */
 .content img {
   display: block;
 }
@@ -205,4 +204,12 @@
 }
 .content .admonition .last {
   display: inline;
+}
+/* css3 fancies */
+.content.css3 {
+  text-shadow: 1px 1px 0px #EEE;
+}
+.content.css3 pre,
+.content.css3 pre {
+  text-shadow:none;
 }
