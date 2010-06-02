@@ -317,5 +317,5 @@
   text-align: right;
 }
 /* css3 fancies */
-.content.css3 { text-shadow: 1px 1px 0px #EEE; } .content.css3 pre,
+.content.css3 { text-shadow: 1px 1px 0px #EEE; }
 .content.css3 pre { text-shadow:none; }
