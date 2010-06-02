@@ -13,11 +13,11 @@
       background: #FAFAFA;
     }
   </style>
-  <link type="text/css" rel="stylesheet" href="../content.css" />
+  <link type="text/css" rel="stylesheet" href="../plainwalk.css" />
 </head>
 <body>
   <div id="wrapper">
-    <div class="document content css3">
+    <div class="document plainwalk css3">
       %(body_pre_docinfo)s
       %(docinfo)s
       %(body)s
