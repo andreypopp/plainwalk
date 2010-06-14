@@ -160,11 +160,12 @@
 /* links */
 .plainwalk a {
   color: #7D2823;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .plainwalk a:focus,
 .plainwalk a:hover {
   color:#A2332C;
+  text-decoration: underline;
 }
 .plainwalk a:visited {
   color:#1F1F1F;
